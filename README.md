@@ -8,7 +8,11 @@ in the group of Joris Sprakel.
 
 In the simulation project we use HOOMD-BLUE for performing Brownian Dynamics simulations. The code presented here is meant to create/manage input files for these simulations, start simulations via HOOMD-BLUE, data handeling during the simulations and analysis after the simulations have finished.
 
-A new simulation is started by running 'hoomd' ./dopant.py'
+A new simulation is started by running `hoomd ./dopant.py`. An input file can be generated or given as input.
+This will also invoke the bookkeeping process during the simulation (`bookkeeper.py`) and the analysis afterwards (`analyzer.py`).
+Basic analysis involves calculating g(r) and mean squared displacements. 
+
+For further analysis functions from the `catpy`-library can be used. Designated modules can be found in the `catpy/ana/`-folder.
 
 # dependencies #
 
