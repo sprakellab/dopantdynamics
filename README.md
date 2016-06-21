@@ -1,13 +1,18 @@
-# Dopant Dynamics
+# Dopant Dynamics #
 
-This folder contains the scripts for the dopant Simulation project.
-This project takes place at the Laboratory of Physical Chemistry and Soft
-Matter at Wageningen Unversity and Research centre.
-
-The project is part of research performed by Justin Tauber and Ruben Higler 
+This is the code for the the dopant dynamics project. This project takes place at the Laboratory of Physical Chemistry and Soft
+Matter at Wageningen Unversity and Research. The project is part of research performed by Justin Tauber and Ruben Higler 
 in the group of Joris Sprakel. 
 
-#dependencies
+# Description #
+
+In the simulation project we use HOOMD-BLUE for performing Brownian Dynamics simulations. The code presented here is meant to create/manage input files for these simulations, start simulations via HOOMD-BLUE, data handeling during the simulations and analysis after the simulations have finished.
+
+A new simulation is started by running 'hoomd ./dopant.py'
+
+# dependencies #
+
+* HOOMD-BLUE -- http://glotzerlab.engin.umich.edu/hoomd-blue/
 
 python libraries:
 * numpy -- http://www.numpy.org/
