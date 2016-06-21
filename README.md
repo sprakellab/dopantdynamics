@@ -10,16 +10,16 @@ in the group of Joris Sprakel.
 #dependencies
 
 python libraries:
-numpy -- http://www.numpy.org/
-scipy -- http://www.scipy.org/
-scikit-learn -- http://scikit-learn.org/stable/index.html
-mayavi -- http://mayavi.sourceforge.net/
-matplotlib -- http://matplotlib.org/
-lmfit -- https://lmfit.github.io/lmfit-py/
+* numpy -- http://www.numpy.org/
+* scipy -- http://www.scipy.org/
+* scikit-learn -- http://scikit-learn.org/stable/index.html
+* mayavi -- http://mayavi.sourceforge.net/
+* matplotlib -- http://matplotlib.org/
+* lmfit -- https://lmfit.github.io/lmfit-py/
 
 c/c++ programs:
-voro++ -- http://math.lbl.gov/voro++/
-StructureAnalysis for bondparameters -- https://github.com/WolfgangLechner/StructureAnalysis/
+* voro++ -- http://math.lbl.gov/voro++/
+* StructureAnalysis for bondparameters -- https://github.com/WolfgangLechner/StructureAnalysis/
 
 Note: to work with the bondparameter functions you should either install StructureAnalysis 
 in the same folder as where you run scripts or change the code in the bondparameter module 
