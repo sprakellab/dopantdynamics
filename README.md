@@ -14,7 +14,7 @@ Basic analysis involves calculating g(r) and mean squared displacements.
 
 For further analysis functions from the `catpy`-library can be used. Designated modules can be found in the `catpy/ana/`-folder.
 
-To calculate the potential-fields in three dimensions for a perfect crystal and from simulation data several functions are avalaible in `plotpotential.py`.
+To calculate and plot the 3D potential fields for a perfect crystal and from simulation data several functions are available in `plotpotential.py`.
 
 # dependencies #
 
