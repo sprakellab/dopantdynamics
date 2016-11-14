@@ -18,7 +18,7 @@ To calculate and plot the 3D potential fields for a perfect crystal and from sim
 
 # dependencies #
 
-* HOOMD-BLUE -- http://glotzerlab.engin.umich.edu/hoomd-blue/
+* HOOMD-BLUE -- http://glotzerlab.engin.umich.edu/hoomd-blue/ (Version 1.3.1 ONLY)
 
 python libraries:
 * numpy -- http://www.numpy.org/
